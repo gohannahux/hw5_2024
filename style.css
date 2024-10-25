@@ -1,0 +1,51 @@
+/* style.css */
+
+
+/*#7*/
+
+.card {
+    flex-basis: 450px; /*elements in flex will grow and shape from this initial size*/
+}
+
+/*step 8*/
+.pricing {
+    display: flex;
+    flex-flow: row wrap;
+    justify-self: center;
+}
+
+/*step 9*/
+@media screen and(min-width: 900px) {
+}
+/*step 11*/
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between; /*all the avilable space in that element will be between the two elements and that's where we need the space*/
+
+}
+
+.nav_links {
+    flex-direction: row;
+}
+
+
+@media all and(prefers-reduced-motion:reduce) {
+
+}
+
+/*step10*/
+@media print {
+
+}
+
+/*step 12*/
+.card {
+    flex-basis: 275px;
+}
+
+.pricing {
+    align-items: center;
+
+}
