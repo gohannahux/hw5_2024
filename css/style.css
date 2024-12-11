@@ -60,6 +60,9 @@ header {
     justify-content: space-between;
     background-color: #fff;
     border-bottom: 3px solid #50c7c7;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 /* step 4*/
@@ -112,6 +115,7 @@ Styling guide:
     background: white;
     color: black;
     padding: 5px;
+    z-index: 0;
 }
 
 /*step 7*/
@@ -191,11 +195,11 @@ Styling guide:
 
 
 /*step13*/
-header {
+/* header {
     position: sticky;
     top: 0;
     z-index: 10;
-}
+} */
 
 /*step14*/
 @media all and (prefers-reduced-motion:reduce) {
